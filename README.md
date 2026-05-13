@@ -30,6 +30,11 @@ DimDash is available on the App Store for iPad.
 
 > *(App Store link here once live)*
 
+## 📍 Upcoming Features / Enhancements
+- [Pro] Multi-Dashboard View
+- Referral Payback
+- Community Plugins
+
 ## 📄 Legal
 
 - [Privacy Policy](https://www.nick-renard.com/privacy)
