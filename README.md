@@ -8,7 +8,7 @@ DimDash turns an iPhone or iPad into a full-screen dashboard for Home Assistant,
 
 ## Useful Links
 
-- Website: https://dimdash.nick-renard.com
+- Website: https://www.nick-renard.com/dimdash
 - Privacy Policy: https://www.nick-renard.com/privacy
 - Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 - App Store: https://apps.apple.com/us/app/dimdash/id6768683806
