@@ -1,10 +1,14 @@
 # DimDash Community
 
-Welcome to the official community hub for **DimDash**, the native iOS/iPadOS dashboard kiosk and auto-dimming app for wall-mounted smart home displays.
+![DimDash Social](assets/Social_Final.png)
+
+Welcome to the community hub for **DimDash**, the native iOS/iPadOS dashboard kiosk and auto-dimming app for wall-mounted smart home displays.
 
 DimDash turns an iPhone or iPad into a full-screen dashboard for Home Assistant, Grafana, Dashy, Homarr, Glance, Node-RED Dashboard, Flame, or any custom web dashboard. It keeps your dashboard visible, dims intelligently when idle, and wakes instantly when you interact with it.
 
-> This repository contains no app source code. DimDash is currently closed-source, and this repo exists for community support, bug reports, feature requests, setup notes, discussions, and public documentation.
+It also includes device display controls for wall panels, including keeping the screen awake while DimDash is open and optionally applying a DimDash-managed brightness level.
+
+This repository is the public place for support, questions, bug reports, feature requests, setup notes, and community documentation.
 
 ## Useful Links
 
@@ -12,9 +16,6 @@ DimDash turns an iPhone or iPad into a full-screen dashboard for Home Assistant,
 - Privacy Policy: https://www.nick-renard.com/privacy
 - Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 - App Store: https://apps.apple.com/us/app/dimdash/id6768683806
-- Bug reports: https://github.com/NRCOM/DimDash-Community/issues/new?template=bug_report.md
-- Feature requests: https://github.com/NRCOM/DimDash-Community/issues/new?template=feature_request.md
-- Discussions: https://github.com/NRCOM/DimDash-Community/discussions
 
 ## What DimDash Does
 
@@ -26,6 +27,7 @@ Core features include:
 - Auto-dimming overlay with configurable idle timeout
 - Adjustable overlay opacity and fade duration
 - Prevent screen sleep while the dashboard is active
+- Optional device brightness control while DimDash is active
 - Pull-to-refresh for stuck dashboard pages
 - Local HTTP/HTTPS dashboard support
 - Integration templates for common self-hosted dashboards
@@ -64,6 +66,9 @@ DimDash Pro is an App Store subscription that unlocks the full kiosk experience.
 Pro features include:
 
 - Multi-dashboard support for up to 5 dashboards
+- Dashboard Cycling with selected dashboards, custom sequence, and per-dashboard durations
+- Preloaded cycle dashboards for smoother transitions
+- Cycle-level dimming controls, including the option to disable dimming while cycling
 - Proximity Detection using the front camera and Apple's Vision framework
 - Scheduled Night Mode for quiet-hours dimming
 - Custom overlay colors
@@ -121,6 +126,15 @@ For Proximity Detection issues, include:
 - Whether camera frames are arriving
 - Whether presence is detected at all
 
+For Dashboard Cycling issues, include:
+
+- Whether DimDash Pro is active
+- How many dashboards are configured
+- Which dashboards are included in the cycle
+- The configured sequence and duration for each dashboard
+- Whether Dim While Cycling is enabled
+- Whether the issue happens at startup, after opening Settings, or only after several cycle rotations
+
 ## Privacy and Security
 
 Please do not post secrets, tokens, passwords, private URLs, or screenshots containing sensitive dashboard data.
@@ -143,6 +157,6 @@ Please keep discussions practical, kind, and focused on helping people build bet
 
 ## Project Status
 
-DimDash is actively developed by [Nick Renard](https://github.com/nrcom). This repository is for community support and documentation, not the private app source code.
+DimDash is actively developed by Nicholas Renard. This repository is for community support and documentation, not the private app source code.
 
 Thanks for helping make iPad wall dashboards less annoying and a lot more useful.
