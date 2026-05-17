@@ -1,8 +1,11 @@
 # DimDash Community
 
-![DimDash Social](assets/Social_Final.png)
+<p align="center">
+    <img src="assets/Core_Features.jpg" alt="DimDash Core Features" width="49%" />
+    <img src="assets/Pro_Features.jpg" alt="DimDash Pro Features" width="49%" />
+</p>
 
-Welcome to the community hub for **DimDash**, the native iOS/iPadOS dashboard kiosk and auto-dimming app for wall-mounted smart home displays.
+Welcome to the community hub for **DimDash**, the native iPadOS/iOS dashboard kiosk and auto-dimming app for wall-mounted smart home displays.
 
 DimDash turns an iPhone or iPad into a full-screen dashboard for Home Assistant, Grafana, Dashy, Homarr, Glance, Node-RED Dashboard, Flame, or any custom web dashboard. It keeps your dashboard visible, dims intelligently when idle, and wakes instantly when you interact with it.
 
@@ -23,7 +26,7 @@ DimDash is built for people who use an iPad as a smart home wall panel but want 
 
 Core features include:
 
-- Native iOS/iPadOS full-screen dashboard wrapper
+- Native iPadOS/iOS full-screen dashboard wrapper
 - Auto-dimming overlay with configurable idle timeout
 - Adjustable overlay opacity and fade duration
 - Prevent screen sleep while the dashboard is active
@@ -32,6 +35,7 @@ Core features include:
 - Local HTTP/HTTPS dashboard support
 - Integration templates for common self-hosted dashboards
 - Home Assistant OAuth setup, dashboard picker, and silent token refresh
+- JavaScript injection for advanced dashboard customization
 - Privacy-first, on-device operation with no account and no analytics
 
 ## Supported Integrations
@@ -40,6 +44,7 @@ DimDash works with any web dashboard URL, and includes templates for:
 
 - Home Assistant
 - Grafana
+- Homepage
 - Dashy
 - Homarr
 - Glance
@@ -72,7 +77,6 @@ Pro features include:
 - Proximity Detection using the front camera and Apple's Vision framework
 - Scheduled Night Mode for quiet-hours dimming
 - Custom overlay colors
-- JavaScript injection for advanced dashboard customization
 
 Proximity Detection is processed locally on-device. No video is recorded, stored, transmitted, or used for analytics.
 
@@ -100,9 +104,9 @@ Use **GitHub Issues** for:
 Please include as much detail as possible:
 
 - Device model, for example `iPad Pro 11-inch` or `iPad mini`
-- iOS/iPadOS version
+- iPadOS/iOS version
 - DimDash app version and build number
-- Dashboard type, for example Home Assistant, Grafana, Dashy, or custom URL
+- Dashboard type, for example Home Assistant, Grafana, Homepage, Dashy, or custom URL
 - Whether the dashboard is local HTTP, local HTTPS, or public HTTPS
 - Steps to reproduce the problem
 - What you expected to happen
